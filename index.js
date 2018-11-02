@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
     // dont go to a new page or dont refresh
     event.preventDefault()
     const input = document.querySelector('input')
-    const passwordLength = input.value
+    const passwordLength = parseInt(input.value, 10)
     console.log(passwordLength)
     let password= ""
     
