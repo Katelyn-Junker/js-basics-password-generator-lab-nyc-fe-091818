@@ -7,6 +7,10 @@ window.addEventListener("load", () => {
     event.preventDefault()
     const input = document.querySelector('input')
     const passwordLength = input.value
+    console.log(passwordLength)
+    
+    
+    
   })
   
   // 2.make a password from the ground up 
