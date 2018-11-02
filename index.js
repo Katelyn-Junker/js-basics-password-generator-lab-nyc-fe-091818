@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   const lowerCasLetters='abcdefghijklmnopqrstuvwxyz'
   const upperCaseLetters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers='0123456789'
-  const characters=''
+  const specialCharacters='!#$%&()\*+,-./:;<=>?@[\\]^\_\{|}~' 
   
   // 1.figure out how long our password should be
   document.addEventListener('submit', (event)=>{
@@ -15,7 +15,9 @@ window.addEventListener("load", () => {
     let password= ""
     
     for (let i= 0; i < passwordLength; i++){
-      
+     const randomLowerCaseIndex= Math.round(Math.random() * lowerCaseLetters.length)
+     console.log(randomLowerCaseIndex)
+     password= password + lowerCaseLetters[randomLowerCaseIndex]
     }
     
   })
