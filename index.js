@@ -24,6 +24,12 @@ window.addEventListener("load", () => {
      }
      
      const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length)
+     console.log(randomUpperCaseIndex)
+     password= password + upperCaseLetters[randomUpperCaseIndex]
+     if (password.length === passwordLength){
+       break 
+     }
+     
      
     }
     
