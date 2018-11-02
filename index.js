@@ -8,8 +8,11 @@ window.addEventListener("load", () => {
     const input = document.querySelector('input')
     const passwordLength = input.value
     console.log(passwordLength)
+    let password= ""
     
-    
+    for (let i= 0; i < passwordLength; i++){
+      
+    }
     
   })
   
