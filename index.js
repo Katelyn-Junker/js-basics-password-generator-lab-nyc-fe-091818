@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   const lowerCasLetters='abcdefghijklmnopqrstuvwxyz'
   const upperCaseLetters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers='0123456789'
-  const 
+  const characters=''
   
   // 1.figure out how long our password should be
   document.addEventListener('submit', (event)=>{
