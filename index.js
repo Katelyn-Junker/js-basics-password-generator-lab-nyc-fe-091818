@@ -24,6 +24,7 @@ window.addEventListener("load", () => {
      }
      
      const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length)
+     
     }
     
   })
