@@ -5,7 +5,8 @@ window.addEventListener("load", () => {
   document.addEventListener('submit', (event)=>{
     // dont go to a new page or dont refresh
     event.preventDefault()
-    console.log(event)
+    const input = document.querySelector('input')
+    const passwordLength = input.value
   })
   
   // 2.make a password from the ground up 
