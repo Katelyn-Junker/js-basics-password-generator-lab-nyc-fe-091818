@@ -30,6 +30,13 @@ window.addEventListener("load", () => {
        break 
      }
      
+     const randomNumberIndex = Math.round(Math.random() * numbers.length)
+     console.log(randomNumbersIndex)
+     password= password + numbers[randomNumbersIndex]
+     if (password.length === passwordLength){
+       break 
+     }
+     
      
     }
     
