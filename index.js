@@ -37,7 +37,12 @@ window.addEventListener("load", () => {
        break 
      }
      
-     
+     const randomSpecialCharactersIndex = Math.round(Math.random() * specialCharacters.length)
+     console.log(randomSpecialCharactersIndex)
+     password= password + specialCharacters[randomSpecialCharactersIndex]
+     if (password.length === passwordLength){
+       break;  
+     }
     }
     
   })
