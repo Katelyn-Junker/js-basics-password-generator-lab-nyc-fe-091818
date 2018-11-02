@@ -1,5 +1,9 @@
 window.addEventListener("load", () => {
   //start your code here
+  const lowerCasLetters='abcdefghijklmnopqrstuvwxyz'
+  const upperCaseLetters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  const numbers='0123456789'
+  const 
   
   // 1.figure out how long our password should be
   document.addEventListener('submit', (event)=>{
