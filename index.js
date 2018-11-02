@@ -18,6 +18,8 @@ window.addEventListener("load", () => {
      const randomLowerCaseIndex= Math.round(Math.random() * lowerCaseLetters.length)
      console.log(randomLowerCaseIndex)
      password= password + lowerCaseLetters[randomLowerCaseIndex]
+     
+     const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length)
     }
     
   })
